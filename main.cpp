@@ -6,12 +6,13 @@
 using namespace std;
 
 int main() {
+   // create integer constructor
    Pair<int> intConstructor(1, 2);
    cout << "The sum of the two integers is " << intConstructor.getFirst() + intConstructor.getSecond()
 	    << "." << endl;
-
+   // create string constructor
    Pair<string> stringConstructor("apple", "banana");
    cout << stringConstructor.getFirst() << " " << stringConstructor.getSecond() << endl;
-
+  
    return 0;
 }
