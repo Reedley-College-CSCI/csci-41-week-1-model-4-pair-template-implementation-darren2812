@@ -1,19 +1,23 @@
 // Pair.h
-// Your Names
+// Christopher and Darren
 #ifndef PAIR_H
 #define PAIR_H
 
+// initializing the class template
 template <typename T>
 class Pair {
 private:
-    T first;
-    T second;
+   // initializing private member variables
+   T first;
+   T second;
 public:
-    Pair(T f, T s);
-    T getFirst() const;
-    T getSecond() const;
-    void setFirst(T f);
-    void setSecond(T s);
+   // initializing default and parameterized constructors
+   Pair();
+   Pair(T f, T s);
+   // initializing getters and setters
+   T getFirst() const;
+   T getSecond() const;
+   void setFirst(T f);
+   void setSecond(T s);
 };
-
 #endif
